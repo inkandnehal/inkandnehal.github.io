@@ -4,133 +4,194 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Nehal (ネハル)</title>
-    <meta name="title" content="Nehal (ネハル)">
-    <meta name="description"
-        content="I'm an 11th-grade STEM student with a passion for coding, design and AI. I revolve mostly around backend managing databases and servers.">
-
+    <title>Neharu (&#x30CD;&#x30CF;&#x30EB;) - Portfolio</title>
+    <meta name="description" content="I blend UX/UI design and modern web development to build digital experiences that look great, feel intuitive, and drive real business results.">
+    <link rel="canonical" href="https://inkandnehal.xyz/">
+    <meta property="og:title" content="Neharu (&#x30CD;&#x30CF;&#x30EB;) - Portfolio">
+    <meta property="og:description" content="I blend UX/UI design and modern web development to build digital experiences that look great, feel intuitive, and drive real business results.">
+    <meta property="og:url" content="https://inkandnehal.xyz/">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://inkandnehal.xy/">
-    <meta property="og:title" content="Nehal (ネハル)">
-    <meta property="og:description"
-        content="I'm an 11th-grade STEM student with a passion for coding, design and AI. I revolve mostly around backend managing databases and servers.">
-    <meta property="og:image" content="https://avatars.githubusercontent.com/u/155372686?v=4">
-
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://inkandnehal.xy/">
-    <meta property="twitter:title" content="Nehal (ネハル)">
-    <meta property="twitter:description"
-        content="I'm an 11th-grade STEM student with a passion for coding, design and AI. I revolve mostly around backend managing databases and servers.">
-    <meta property="twitter:image" content="https://avatars.githubusercontent.com/u/155372686?v=4">
-
-    <meta name="theme-color" content="#2b2d31">
-    <link rel="stylesheet" href="style.css">
+    <meta name="twitter:card" content="summary">
+    <link rel="icon" href="https://github.githubassets.com/favicons/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header>
-        <div class="brand">InkAndNehal</div>
-        <a href="https://github.com/inkandnehal" class="nav-link">GitHub</a>
-    </header>
-
-    <main class="container">
-        <div class="hero-layout">
-
-            <div class="profile-img-container">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
                 <img src="https://avatars.githubusercontent.com/u/155372686?v=4" alt="Profile" class="profile-img">
+                <span>Neharu (&#x30CD;&#x30CF;&#x30EB;)</span>
             </div>
 
-            <section class="hero-text">
-                <h1>Nehal (ネハル)</h1>
-                <p>I'm an 11th-grade STEM student with a passion for coding, designing and AI. I revolve mostly around
-                    backend managing databases and servers. I enjoy the company of others when we share a common ground.
-                </p>
-                <a href="https://discord.com/users/1391763519422074962" target="_blank" class="discord-btn">
-                    Contact me on Discord
-                </a>
-            </section>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
 
-            <aside class="info-card">
-                <div class="info-section">
-                    <h3>Roles</h3>
-                    <div class="tag-cloud">
-                        <span class="tag">Discord Bot Developer</span>
-                        <span class="tag">Programmer</span>
-                        <span class="tag">Scripter</span>
-                        <span class="tag">Thumbnail Designer</span>
-                    </div>
-                </div>
-
-                <div class="info-section">
-                    <h3>Interests</h3>
-                    <div class="tag-cloud">
-                        <span class="tag">Game Development</span>
-                        <span class="tag">AI Engineering</span>
-                        <span class="tag">Video Editing</span>
-                        <span class="tag">Music Production</span>
-                        <span class="tag">UI/UX</span>
-                        <span class="tag">Open Source</span>
-                    </div>
-                </div>
-
-                <div class="info-section">
-                    <h3>Skills</h3>
-                    <div class="tag-cloud">
-                        <span class="tag">JavaScript</span>
-                        <span class="tag">HTML/CSS</span>
-                        <span class="tag">Python</span>
-                        <span class="tag">Lua</span>
-                        <span class="tag">Photoshop</span>
-                    </div>
-                </div>
-            </aside>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="https://github.com/inkandnehal" target="_blank" rel="noopener noreferrer">Github</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
+    </nav>
 
-        <section class="projects-section">
-            <h2 class="section-title">Featured Works & Contributions</h2>
-
-            <div class="projects-grid">
-                <div class="project-card">
-                    <a href="https://antibot.xyz/" target="_blank" class="project-link">
-                        <span class="status-badge badge-dev">Developer</span>
-                        <img src="https://avatars.githubusercontent.com/u/88400076?s=200&v=4" class="project-img">
-                        <div class="card-content">
-                            <h3>Antibot</h3>
-                            <span>Advanced security Discord bot that provides extra security to your discord server
-                                providing anti-scam & more!</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="project-card">
-                    <a href="https://alt-detector.tb1.pw/" target="_blank" class="project-link">
-                        <span class="status-badge badge-dev">Developer</span>
-                        <img src="https://images-ext-1.discordapp.net/external/bzQ0Ilcaj-3sxFShzGVwu8gMFlGy_Aj74F5-NiW4gEo/%3Fsize%3D2048/https/cdn.discordapp.com/avatars/753780763534557234/5ade8bcaddc587eba1ecc4c6f179b2ec.webp?format=webp&width=930&height=930"
-                            class="project-img">
-                        <div class="card-content">
-                            <h3>Alt Detector</h3>
-                            <span>A discord bot focused on protecting your server from ban evading people using
-                                alts.</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="project-card">
-                    <a href="https://chromewebstore.google.com/detail/meikoblock/oicjdpkkefgnccmpiejjlmpikbhfhcgi" target="_blank" class="project-link">
-                        <span class="status-badge">Owner</span>
-                        <img src="https://github.com/inkandnehal/meikoblock/raw/main/assets/icon128.png" alt="Meiko" class="project-img">
-                        <div class="card-content">
-                            <h3>MeikoBlock</h3>
-                            <span>A no-nonsense, aesthetic website blocker built for Chrome (Manifest V3).</span>
-                        </div>
-                    </a>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Transforming Ideas Into<br>Modern Digital Experiences</h1>
+            <p>I blend UI/UX design and modern web development to build digital experiences that look great, feel
+                intuitive, and drive real business results.</p>
+            <a href="#projects" class="cta-button">Explore My Work</a>
+        </div>
+        <div class="hero-illustration">
+            <div class="clouds cloud1"></div>
+            <div class="clouds cloud2"></div>
+            <div class="clouds cloud3"></div>
+            <div class="laptop">
+                <div class="screen">
+                    <div class="code-symbol">&lt;/&gt;</div>
+                    <div class="color-bars">
+                        <div class="bar bar-red"></div>
+                        <div class="bar bar-yellow"></div>
+                        <div class="bar bar-blue"></div>
+                    </div>
+                    <div class="gear">&#x2699;</div>
                 </div>
             </div>
-        </section>
-    </main>
+            <div class="hands"></div>
+            <div class="notebook"></div>
+            <div class="coffee-cup"></div>
+            <div class="plant plant1">&#x1F33F;</div>
+            <div class="plant plant2">&#x1F338;</div>
+            <div class="plant plant3">&#x1F33A;</div>
+        </div>
+    </section>
 
-    <footer>
-        Keep coding!
-    </footer>
+    <!-- Client Logos -->
+    <section class="clients">
+        <div class="client-logos">
+            <div class="client-logo">
+                <img src="https://scontent.fdac1-2.fna.fbcdn.net/v/t39.30808-6/444468335_122106469544319564_1372410851363952041_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeF0C5JzeS1be6eDPYoCcQJ80NZs53fLYdDQ1mznd8th0O2WiIsYDx7RRuwmloVgHxoHZDOCgljwZLXO7HWiIab0&_nc_ohc=2H4iqR31OPgQ7kNvwHYzP2y&_nc_oc=AdnzVsERy5D4crHTsZiCXESjkskz4dIdin2p3gel9eiD_OV3LKzbBej_r5j4gGziD90&_nc_zt=23&_nc_ht=scontent.fdac1-2.fna&_nc_gid=Y-zhxeSoy-9dzgnYLdkYcg&oh=00_AfvVECyaRpgHQZDfI_pWQHCHgIoyhKWWfC6NyUk3PHqabw&oe=6991F8EC"
+                    alt="Company logo" loading="lazy">
+            </div>
+            <div class="client-logo">
+                <img src="https://framerusercontent.com/images/gUgqbf6F8laNIDgpA3RJAXJ5xiA.png?scale-down-to=512&width=1890&height=713"
+                    alt="Company logo" loading="lazy">
+            </div>
+            <div class="client-logo">
+                <img src="https://avatars.githubusercontent.com/u/84299599?s=200&v=4" alt="Company logo" loading="lazy">
+            </div>
+            <div class="client-logo">
+                <img src="https://scontent.fdac1-1.fna.fbcdn.net/v/t39.30808-6/409909341_368409219033642_937500510776867647_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeH4yCJAkDaeo7cJosv-1-o8Y8bdNtFUCbZjxt020VQJtj6s5z449yu5rGsxiSHZ6oCCTZBQec7DjHabTYg26KoB&_nc_ohc=1xf2E8wZ9sUQ7kNvwGEqbDr&_nc_oc=Adnl_1PpNl7Vofm2wRgo-vAu8xlUA6VAKmwbzCf-NmEiJinGAMOLLZ7QHbGh2KUP-lI&_nc_zt=23&_nc_ht=scontent.fdac1-1.fna&_nc_gid=P92Plnf8wcvoj8G8lx9_qw&oh=00_Aft59WsyftR1HKmj0ZHCS1ltxzKJBo7AvVnRs_atjH5_NA&oe=6991DBA6"
+                    alt="Company logo" loading="lazy">
+            </div>
+        </div>
+    </section>
 
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2>Projects I Worked For (Not Relevant)</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>MeikoBlock</h3>
+                <p>MeikoBlock is a custom Chrome Extension designed to promote distraction-free, Unife loving browsing.
+                    MeikoBlock features a domain, URL, Page and path blockers with a quick reward with points.</p>
+                <div class="tech-tags">
+                    <span>JavaScript</span>
+                    <span>HTML/CSS</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>Antibot</h3>
+                <p>Advanced security Discord bot that provides extra security to your discord server, providing
+                    anti-spam &amp; more!!</p>
+                <div class="tech-tags">
+                    <span>TypeScript</span>
+                    <span>Node.JS</span>
+                    <span>Discord.js</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>Alt Detector</h3>
+                <p>A discord bot focused on protecting your server from ban-evading people using alts.</p>
+                <div class="tech-tags">
+                    <span>TypeScript</span>
+                    <span>Node.JS</span>
+                    <span>Discord.js</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="https://avatars.githubusercontent.com/u/155372686?v=4" alt="Neharu" class="avatar">
+            </div>
+            <div class="about-content">
+                <h2>Neharu (&#x30CD;&#x30CF;&#x30EB;)</h2>
+                <p class="subtitle">Full-Stack Developer | Web Designer - MERN, Figma</p>
+                <div class="social-links">
+                    <a href="https://github.com/inkandnehal" class="social-icon" target="_blank"
+                        rel="noopener noreferrer" aria-label="GitHub">
+                        <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+                        </svg>
+                    </a>
+                    <a href="https://discord.com/users/1459075705202675835" class="social-icon discord" target="_blank"
+                        rel="noopener noreferrer" aria-label="Discord">
+                        <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M20.317 4.37a19.791 19.791 0 00-4.885-1.515.074.074 0 00-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 00-5.487 0 12.64 12.64 0 00-.617-1.25.077.077 0 00-.079-.037A19.736 19.736 0 003.677 4.37a.07.07 0 00-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 00.031.057 19.9 19.9 0 005.993 3.03.078.078 0 00.084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 00-.041-.106 13.107 13.107 0 01-1.872-.892.077.077 0 01-.008-.128 10.2 10.2 0 00.372-.292.074.074 0 01.077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 01.078.01c.12.098.246.198.373.292a.077.077 0 01-.006.127 12.299 12.299 0 01-1.873.892.077.077 0 00-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 00.084.028 19.839 19.839 0 006.002-3.03.077.077 0 00.032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 00-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="about-text">
+                    <p>I'm a self-taught developer who learns by doing, driven by curiosity and need. A love of
+                        functional aesthetics started my journey, focusing first on development&#8212;writing code,
+                        solving problems, and building complete web applications front to back.</p>
+
+                    <p>Over time, I realized something important: great websites aren't just about clean
+                        code&#8212;they're about how people experience them. That realization led me to UI/UX. I'm
+                        currently building my design skills and expanding my developer expertise so I can create
+                        websites that not only work smoothly but also look and feel great.</p>
+
+                    <p>Today, I focus on building full-stack web solutions and improving my web design
+                        workflow&#8212;designing with purpose, developing with precision, and always aiming for results
+                        that help clients and brands grow.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <h2>&#x1F527; Let's Create Impact</h2>
+            <p>Have an idea in mind? Let's work together to turn it into something impactful and memorable.</p>
+            <div class="contact-buttons">
+                <a href="mailto:sadmnehal@gmail.com" class="contact-btn">
+                    <span>&#x1F4E7;</span> sadmnehal@gmail.com
+                </a>
+                <a href="https://github.com/inkandnehal/inkandnehal.github.io" class="contact-btn" target="_blank"
+                    rel="noopener noreferrer">
+                    <span>&#x1F468;&#x200D;&#x1F4BB;</span> Source code on GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
